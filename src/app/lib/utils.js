@@ -5,6 +5,7 @@
  * Example usage:
  * cn('class1', 'class2', { 'class3': isActive })
  */
+//src/app/lib/utils.js
 export const cn = (...classes) => {
     return classes
       .flatMap((cls) => {

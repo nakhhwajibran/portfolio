@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import Typewriter from 'typewriter-effect';
+import Image from 'next/image';
 
 const HeroSection = () => (
   <section className="hero-section">
@@ -9,7 +10,7 @@ const HeroSection = () => (
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 1 }}
     >
-      <img
+      <Image
         src="/pp-photo/img2.jpeg" /* Replace with your image path */
         alt="Adnan Ali"
         className="hero-image"
@@ -23,7 +24,7 @@ const HeroSection = () => (
       transition={{ duration: 1 }}
     >
       <h1 className="text-4xl md:text-5xl font-extrabold">
-        Hi, I'm Adnan Ali
+        Hi, I am Adnan Ali
       </h1>
       <p className="mt-4 text-lg md:text-xl">Software Engineer</p>
 
