@@ -16,7 +16,7 @@ const ContactForm = () => {
     const email = formData.get('email');
     const message = formData.get('message');
 
-    //console.log({ name, email, message }); // Simulate sending form data
+    console.log({ name, email, message }); // Simulate sending form data
 
     setIsSubmitted(true);
 
