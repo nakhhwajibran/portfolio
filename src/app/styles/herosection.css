@@ -1,0 +1,26 @@
+.hero-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: var(--background);
+    color: var(--foreground);
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.scroll-prompt {
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: var(--accent-color);
+}

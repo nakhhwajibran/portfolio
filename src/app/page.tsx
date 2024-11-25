@@ -1,18 +1,24 @@
-// pages/index.js
-import Header from './components/Header';
+'use client';
+import HeroSection from './components/HeroSection';
 import Summary from './components/Summary';
+import Education from './components/Education';
 import Project from './components/Project';
+import WorkExperience from './components/WorkExperience';
 import ContactForm from './components/ContactForm';
+import Skills from './components/Skills';
 
 export default function Home() {
-    return (
-        <>
-            <Header />
-            <main>
-                <Summary />
-                <Project />
-                <ContactForm />
-            </main>
-        </>
-    );
+  return (
+    <>
+      <HeroSection />
+      <main className="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-all">
+        <Summary />
+        <Skills/>
+        <Education />
+        <Project />
+        <WorkExperience />
+        <ContactForm />
+      </main>
+    </>
+  );
 }
