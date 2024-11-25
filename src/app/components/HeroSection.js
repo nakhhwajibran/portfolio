@@ -13,6 +13,8 @@ const HeroSection = () => (
       <Image
         src="/pp-photo/img2.jpeg" /* Replace with your image path */
         alt="Adnan Ali"
+        layout="fill" // Automatically fills the container
+        objectFit="cover" // Ensures proper resizing without distortion
         className="hero-image"
       />
     </motion.div>

@@ -14,9 +14,17 @@
   
   @media (min-width: 768px) {
     .hero-section {
-      flex-direction: row; /* Image on the left and text on the right */
+      flex-direction: row; /* Horizontal layout for larger screens */
+      text-align: left;
+      gap: 3rem;
+    }
+  
+    .hero-image-container {
+      width: 300px; /* Restore larger size */
+      height: 300px;
     }
   }
+  
   
   .hero-image-container {
     position: relative;
@@ -38,13 +46,13 @@
   
   @keyframes fireEffect {
     0% {
-      box-shadow: 0 0 20px rgba(255, 165, 0, 0.8), 0 0 40px rgba(255, 69, 0, 0.8);
+      box-shadow: 0 0 20px rgba(255, 165, 0, 0.6), 0 0 40px rgba(255, 69, 0, 0.6);
     }
     50% {
-      box-shadow: 0 0 40px rgba(255, 69, 0, 0.8), 0 0 80px rgba(255, 0, 0, 0.8);
+      box-shadow: 0 0 40px rgba(255, 69, 0, 0.6), 0 0 80px rgba(255, 0, 0, 0.6);
     }
     100% {
-      box-shadow: 0 0 20px rgba(255, 165, 0, 0.8), 0 0 40px rgba(255, 69, 0, 0.8);
+      box-shadow: 0 0 20px rgba(255, 165, 0, 0.6), 0 0 40px rgba(255, 69, 0, 0.6);
     }
   }
   
