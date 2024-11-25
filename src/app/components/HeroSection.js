@@ -2,45 +2,63 @@ import { motion } from 'framer-motion';
 import Typewriter from 'typewriter-effect';
 
 const HeroSection = () => (
-  <section className="min-h-screen flex flex-col items-center justify-center text-center">
-    <motion.h1
-      className="text-5xl font-extrabold"
-      initial={{ opacity: 0, y: -50 }}
-      animate={{ opacity: 1, y: 0 }}
+  <section className="hero-section">
+    <motion.div
+      className="hero-image-container"
+      initial={{ opacity: 0, scale: 0.8 }}
+      animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 1 }}
     >
-      Hi, I'm Adnan Ali
-    </motion.h1>
-    <motion.p
-      className="mt-4 text-xl"
-      initial={{ opacity: 0, y: 50 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 1.5 }}
-    >
-      Software Engineer
-    </motion.p>
-
-    <motion.div
-      className="mt-4 text-3xl"
-      initial={{ opacity: 0, y: 50 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 1.5 }}
-    >
-      <Typewriter
-        options={{
-          strings: ['Developer', 'Engineer', 'Problem Solver', 'NextJs'],
-          autoStart: true,
-          loop: true,
-        }}
+      <img
+        src="/pp-photo/img2.jpeg" /* Replace with your image path */
+        alt="Adnan Ali"
+        className="hero-image"
       />
     </motion.div>
 
     <motion.div
-      className="mt-8 text-lg"
-      animate={{ y: [0, 10, 0] }}
-      transition={{ repeat: Infinity, duration: 2 }}
+      className="hero-text-container"
+      initial={{ opacity: 0, x: 50 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ duration: 1 }}
     >
-      Scroll to Explore ↓
+      <h1 className="text-4xl md:text-5xl font-extrabold">
+        Hi, I'm Adnan Ali
+      </h1>
+      <p className="mt-4 text-lg md:text-xl">Software Engineer</p>
+
+      <motion.div
+        className="mt-4 text-2xl md:text-3xl typewriter-container"
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.5 }}
+      >
+        <Typewriter
+          options={{
+            strings: [
+            'Developer',
+            'Problem Solver',
+            'Crafting Code, Building Solutions',
+            'Coding with Precision',
+            'Digital Architect',
+            'Turning Ideas into Reality',
+            'Building the Next Generation',
+          ],
+            
+            autoStart: true,
+            loop: true,
+            wrapperClassName: 'typewriter-text',
+          }}
+        />
+      </motion.div>
+
+      <motion.div
+        className="mt-8 text-base md:text-lg"
+        animate={{ y: [0, 10, 0] }}
+        transition={{ repeat: Infinity, duration: 2 }}
+      >
+        Scroll to Explore ↓
+      </motion.div>
     </motion.div>
   </section>
 );
