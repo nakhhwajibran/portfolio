@@ -6,6 +6,7 @@ import Project from './components/Project';
 import WorkExperience from './components/WorkExperience';
 import ContactForm from './components/ContactForm';
 import Skills from './components/Skills';
+import Footer from './components/Footer';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <WorkExperience />
         <ContactForm />
       </main>
+      <Footer/>
     </>
   );
 }

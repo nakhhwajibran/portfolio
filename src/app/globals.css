@@ -7,6 +7,7 @@
 @import './styles/herosection.css';
 @import './styles/modetoggle.css';
 @import './styles/skills.css';
+@import './styles/footer.css';
 
 @tailwind base;
 @tailwind components;

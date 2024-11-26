@@ -105,3 +105,139 @@
     }
   }
   
+/* Popup Styling */
+.resume-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.popup-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: 1;
+}
+
+.popup-content {
+  position: relative;
+  background: rgba(255, 255, 255, 0.95);
+  width: 90%;
+  max-width: 800px;
+  height: 90%;
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 2;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.resume-frame {
+  width: 100%;
+  height: 100%;
+  border: none;
+  overflow-y: auto; /* Enable scrolling within the frame */
+}
+
+/* Download Resume Icon */
+.download-resume-icon {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: var(--primary);
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.download-resume-icon:hover {
+  background: rgba(135, 206, 250, 0.9);
+  color: white;
+}
+
+/* Smooth Popup Close Animation */
+.popup-content {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.popup-content:hover {
+  transform: scale(1.05);
+}
+
+/* Smooth Popup Transition */
+.popup-frame {
+  animation: smoothOpen 0.5s ease-in-out forwards;
+}
+
+.popup-frame.exit {
+  animation: flushClose 0.5s ease-in-out forwards;
+}
+
+@keyframes smoothOpen {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes flushClose {
+  from {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.5);
+  }
+}
+/* Fire effect for the View Resume Button */
+.view-resume-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+  animation: iceGlow 2s infinite;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.view-resume-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 15px rgba(135, 206, 250, 0.9);
+}
+
+@keyframes iceGlow {
+  0% {
+    box-shadow: 0 0 10px rgba(135, 206, 250, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(135, 206, 250, 0.9);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(135, 206, 250, 0.5);
+  }
+}
