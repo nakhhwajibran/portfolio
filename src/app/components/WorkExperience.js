@@ -6,13 +6,14 @@ const WorkExperience = () => {
   const experienceData = [
     {
       year: 'Jul 2024 - Present',
-      duration: 'Present (6 months)',
+      duration: '6 months',
       title: 'Lecturer',
       company: 'University of Massachusetts Boston',
       location: 'Boston, MA',
       responsibilities: [
-        'Delivered engaging lectures on core Java programming and advanced data structures.',
-        'Supervised and mentored 10+ student-driven software development projects.',
+        'Delivered comprehensive lectures on core Java programming and advanced data structures, fostering practical problem-solving skills.',
+        'Supervised and guided 10+ student-led software development projects, collaborating with clients from the UMass Venture Development Center.',
+        'Incorporated real-world case studies to illustrate the software development lifecycle, enhancing student engagement and industry readiness.',
       ],
     },
     {
@@ -22,9 +23,11 @@ const WorkExperience = () => {
       company: 'WhoozCooking Inc.',
       location: 'Boston, MA',
       responsibilities: [
-        'Developed RESTful APIs for admin functionalities, reducing onboarding time by 50%.',
-        'Integrated third-party APIs, improving backend efficiency by 30%.',
-        'Architected a microservices-based solution using AWS DynamoDB and Kafka.',
+        'Developed RESTful APIs to automate JSON parsing from Excel files, reducing onboarding processes by 50%.',
+        'Integrated Stripe and DoorDash APIs for secure payment processing and dynamic delivery fee calculation, increasing backend efficiency by 30%.',
+        'Architected microservices using AWS DynamoDB for real-time triggers and Kafka for seamless inter-service communication.',
+        'Deployed services on Kubernetes with Amazon EKS, ensuring consistent runtime environments across pipelines.',
+        'Enhanced development workflows by contributing to a CI/CD pipeline setup using Git and Jenkins.',
       ],
     },
     {
@@ -34,12 +37,16 @@ const WorkExperience = () => {
       company: 'TIBCO Software',
       location: 'Pune, India',
       responsibilities: [
-        'Engineered REST APIs for an analytical web application, decreasing latency by 20%.',
-        'Designed and optimized 100+ database objects across MySQL, MongoDB, and SAP BW/4HANA.',
-        'Collaborated within cross-functional teams through all phases of the SDLC.',
+        'Engineered REST APIs for analytical web applications, reducing data transfer latency by 20%.',
+        'Optimized 100+ database objects across NoSQL, MongoDB, and SAP BW/4HANA for faster data retrieval.',
+        'Improved web page load speed by 15% through advanced caching strategies and efficient DOM manipulation.',
+        'Documented and validated RESTful APIs using tools like Postman to ensure consistent functionality.',
+        'Collaborated in cross-functional teams using Agile Scrum methodologies to deliver high-quality software products.',
       ],
     },
   ];
+
+    
 
   const containerVariants = {
     hidden: { opacity: 0 },
