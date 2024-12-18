@@ -11,9 +11,10 @@ const WorkExperience = () => {
       company: 'University of Massachusetts Boston',
       location: 'Boston, MA',
       responsibilities: [
-        'Delivered comprehensive lectures on core Java programming and advanced data structures, fostering practical problem-solving skills.',
-        'Supervised and guided 10+ student-led software development projects, collaborating with clients from the UMass Venture Development Center.',
-        'Incorporated real-world case studies to illustrate the software development lifecycle, enhancing student engagement and industry readiness.',
+        'Delivered courses on Java programming, data structures, and algorithms.',
+        'Introduced students to serverless architectures using AWS Lambda and Azure Functions.',
+        'Taught modern DevOps practices including Docker, Kubernetes, and Jenkins pipelines.',
+        'Mentored 10+ student projects collaborating with UMass Venture Development clients to deliver scalable solutions using Agile practices.',
       ],
     },
     {
@@ -23,11 +24,13 @@ const WorkExperience = () => {
       company: 'WhoozCooking Inc.',
       location: 'Boston, MA',
       responsibilities: [
-        'Developed RESTful APIs to automate JSON parsing from Excel files, reducing onboarding processes by 50%.',
-        'Integrated Stripe and DoorDash APIs for secure payment processing and dynamic delivery fee calculation, increasing backend efficiency by 30%.',
-        'Architected microservices using AWS DynamoDB for real-time triggers and Kafka for seamless inter-service communication.',
-        'Deployed services on Kubernetes with Amazon EKS, ensuring consistent runtime environments across pipelines.',
-        'Enhanced development workflows by contributing to a CI/CD pipeline setup using Git and Jenkins.',
+        'Developed a food delivery platform integrating real-time tracking, chef profiles, and meal customization using Node.js, React.js, and MongoDB.',
+        'Built reusable React components with Redux, improving performance and reducing load time by 30%.',
+        'Automated DoorDash API integrations via webhooks for real-time delivery updates and dynamic fee calculations.',
+        'Integrated secure authentication using JWT, OAuth 2.0, and Passport.js for API endpoint security.',
+        'Architected microservices using AWS DynamoDB for real-time data triggers and Kafka for seamless communication.',
+        'Deployed microservices on Amazon EKS with Kubernetes, ensuring consistent environments across pipelines.',
+        'Streamlined workflows by setting up a CI/CD pipeline using GitHub Actions and Jenkins.',
       ],
     },
     {
@@ -37,14 +40,17 @@ const WorkExperience = () => {
       company: 'TIBCO Software',
       location: 'Pune, India',
       responsibilities: [
-        'Engineered REST APIs for analytical web applications, reducing data transfer latency by 20%.',
-        'Optimized 100+ database objects across NoSQL, MongoDB, and SAP BW/4HANA for faster data retrieval.',
-        'Improved web page load speed by 15% through advanced caching strategies and efficient DOM manipulation.',
-        'Documented and validated RESTful APIs using tools like Postman to ensure consistent functionality.',
-        'Collaborated in cross-functional teams using Agile Scrum methodologies to deliver high-quality software products.',
+        'Engineered RESTful APIs within a microservices architecture, reducing data latency by 20% and improving system uptime.',
+        'Improved web page load speeds by 15% through efficient DOM manipulation, caching strategies, and cookies optimization.',
+        'Developed responsive UIs with Material-UI and Tailwind CSS for interactive dashboards using D3.js and Chart.js.',
+        'Optimized over 100 database objects across NoSQL, MongoDB, and SAP BW/4HANA for faster data retrieval.',
+        'Validated and documented REST APIs using Postman and Thunder Client for consistent functionality.',
+        'Configured AWS CloudWatch for real-time monitoring, logging, and issue resolution in microservices.',
+        'Collaborated with cross-functional teams using Agile Scrum to deliver high-quality software solutions.',
       ],
     },
   ];
+
 
     
 

@@ -10,9 +10,9 @@ const Summary = () => (
   >
     <p className="summary-text">
   A <span className="highlight">versatile Software Engineer</span> dedicated to building 
-  <span className="highlight">scalable backend systems</span>, designing <span className="highlight">intuitive user interfaces</span>, 
+  <span className="highlight"> scalable backend systems</span>, designing <span className="highlight"> intuitive user interfaces</span>, 
   and delivering solutions that drive real-world impact. With strong expertise in 
-  <span className="highlight">NoSQL databases</span> such as DynamoDB and MongoDB, alongside traditional relational databases, 
+  <span className="highlight"> NoSQL databases</span> such as DynamoDB and MongoDB, alongside traditional relational databases, 
   I excel at architecting efficient, high-performance data systems. Combining a passion for 
   <span className="highlight"> technology and creativity</span>, I specialize in simplifying complex workflows and making systems accessible, 
   empowering businesses to achieve their goals in fast-paced, competitive environments.
