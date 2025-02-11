@@ -6,15 +6,15 @@ const Education = () => {
   const educationData = [
     {
       year: '2024',
-      title: 'Master of Science in Computer Science',
-      institution: 'University of Massachusetts Boston',
-      description: 'GPA: 3.92/4.0.',
+      title: 'Master of Science in Information Technology & Analytics',
+      institution: 'Rutgers University, Newark',
+      description: 'GPA: 3.78/4.0.',
     },
     {
-      year: '2020',
-      title: 'Bachelor of Technology in Information Technology',
-      institution: 'Pune University',
-      description: 'GPA: 8.56/10.',
+      year: '2018',
+      title: 'Bachelor of Engineering in Electronics Engineering',
+      institution: 'Mumbai University',
+      description: 'GPA: 7.56/10.',
     },
   ];
 

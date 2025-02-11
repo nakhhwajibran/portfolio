@@ -5,48 +5,42 @@ import { motion } from 'framer-motion';
 const WorkExperience = () => {
   const experienceData = [
     {
-      year: 'Jul 2024 - Present',
-      duration: '6 months',
-      title: 'Lecturer',
-      company: 'University of Massachusetts Boston',
-      location: 'Boston, MA',
-      responsibilities: [
-        'Delivered courses on Java programming, data structures, and algorithms.',
-        'Introduced students to serverless architectures using AWS Lambda and Azure Functions.',
-        'Taught modern DevOps practices including Docker, Kubernetes, and Jenkins pipelines.',
-        'Mentored 10+ student projects collaborating with UMass Venture Development clients to deliver scalable solutions using Agile practices.',
-      ],
-    },
-    {
-      year: 'Dec 2023 - Jul 2024',
-      duration: '7 months',
-      title: 'Software Engineer Intern',
-      company: 'WhoozCooking Inc.',
-      location: 'Boston, MA',
-      responsibilities: [
-        'Developed a food delivery platform integrating real-time tracking, chef profiles, and meal customization using Node.js, React.js, and MongoDB.',
-        'Built reusable React components with Redux, improving performance and reducing load time by 30%.',
-        'Automated DoorDash API integrations via webhooks for real-time delivery updates and dynamic fee calculations.',
-        'Integrated secure authentication using JWT, OAuth 2.0, and Passport.js for API endpoint security.',
-        'Architected microservices using AWS DynamoDB for real-time data triggers and Kafka for seamless communication.',
-        'Deployed microservices on Amazon EKS with Kubernetes, ensuring consistent environments across pipelines.',
-        'Streamlined workflows by setting up a CI/CD pipeline using GitHub Actions and Jenkins.',
-      ],
-    },
-    {
-      year: 'Sep 2020 - Jul 2022',
+      year: 'Aug 2021 - July 2023',
       duration: '1 year 10 months',
-      title: 'Associate Software Engineer',
-      company: 'TIBCO Software',
-      location: 'Pune, India',
+      title: 'DevOps Engineer',
+      company: 'Impact Guru Technology Ventures Private Ltd.',
+      location: 'Mumbai, India',
       responsibilities: [
-        'Engineered RESTful APIs within a microservices architecture, reducing data latency by 20% and improving system uptime.',
-        'Improved web page load speeds by 15% through efficient DOM manipulation, caching strategies, and cookies optimization.',
-        'Developed responsive UIs with Material-UI and Tailwind CSS for interactive dashboards using D3.js and Chart.js.',
-        'Optimized over 100 database objects across NoSQL, MongoDB, and SAP BW/4HANA for faster data retrieval.',
-        'Validated and documented REST APIs using Postman and Thunder Client for consistent functionality.',
-        'Configured AWS CloudWatch for real-time monitoring, logging, and issue resolution in microservices.',
-        'Collaborated with cross-functional teams using Agile Scrum to deliver high-quality software solutions.',
+        
+        "AWS deployments by designing Terraform's modular templates that cut configuration eﬀorts by 30%.",
+        "Multi-environment setup time by 40% by developing Terraform modules and orchestrating containerized apps on Amazon EKS, enabling faster scaling.",
+        "Optimal resource distribution by deploying multi-cluster Kubernetes on AKS and OpenShift with Helm, reducing overhead by 30%.",
+        "Release time was reduced by 35% by building CI/CD pipelines with AWS DevOps and Jenkins, incorporating automated testing and rollback.",
+        "Collaborating in the automation of AWS infrastructure via Terraform and Jenkins software and services configuration via chef cookbooks.",
+      ],
+    },
+    {
+      year: 'Jan 2020 - July 2021',
+      duration: '1 year 7 months',
+      title: 'Senior Software Engineer',
+      company: 'Impact Guru Technology Ventures Private Ltd.',
+      location: 'Mumbai, India',
+      responsibilities: [
+        "Downtime was reduced by 13% by revamping and optimizing cleanup processes, leading to more stable and efficient operations.",
+        "Code management was streamlined by orchestrating development on AWS with GitHub and S3 integration, resulting in faster and more reliable deployments.",
+        "Feature delivery was accelerated through cross-team collaboration on microservice middleware, enabling timely AWS S3 deployments.",
+        "Team productivity increased by 50% through the mentorship of five junior backend developers, resulting in streamlined processes and faster releases."
+      ],
+    },
+    {
+      year: 'Oct 2018 - Dec 2019',
+      duration: '1 year 2 months',
+      title: 'Software Engineer',
+      company: 'Impact Guru Technology Ventures Private Ltd.',
+      location: 'Mumbai, India',
+      responsibilities: [
+        "A 98% client satisfaction rate was achieved through prompt collaboration with managers to resolve inquiries, enhancing client relationships and minimizing escalations.",
+        "Outreach to thousands of clients was streamlined by using Python scripts to retrieve data from APIs, apply ranking algorithms, and generate Jinja templates, resulting in automated, targeted email campaigns.",
       ],
     },
   ];

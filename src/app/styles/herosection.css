@@ -27,6 +27,7 @@
   
   
   .hero-image-container {
+    padding: 20px;
     position: relative;
     width: 300px;
     height: 300px;

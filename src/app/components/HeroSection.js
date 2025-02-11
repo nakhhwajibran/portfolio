@@ -22,8 +22,8 @@ const HeroSection = () => {
         transition={{ duration: 1 }}
       >
         <Image
-          src="/pp-photo/img2.jpeg" // Replace with your image path
-          alt="Adnan Ali"
+          src="/pp-photo/profile.jpg" // Replace with your image path
+          alt="Jibran Siraj Nakhwa"
           layout="fill"
           objectFit="cover"
           className="hero-image"
@@ -36,8 +36,8 @@ const HeroSection = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
       >
-        <h1 className="text-4xl md:text-5xl font-extrabold">Hi, I am Adnan Ali</h1>
-        <p className="mt-4 text-lg md:text-xl">Software Engineer</p>
+        <h1 className="text-4xl md:text-5xl font-extrabold">Hi, I am Jibran Nakhwa</h1>
+        <p className="mt-4 text-lg md:text-xl">DevOps Engineer</p>
 
         <motion.div
           className="mt-4 text-2xl md:text-3xl typewriter-container"
@@ -50,10 +50,9 @@ const HeroSection = () => {
               strings: [
                 'Developer',
                 'Problem Solver',
-                'Crafting Code, Building Solutions',
+                'Sites Reliability Engineer',
                 'Coding with Precision',
-                'Digital Architect',
-                'Turning Ideas into Reality',
+                'DevOps Engineer',
                 'Building the Next Generation',
               ],
               autoStart: true,

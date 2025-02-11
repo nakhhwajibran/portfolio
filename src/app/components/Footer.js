@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p>
-        <strong>Adnan Ali</strong> | {experienceYears} years of experience
+        <strong>Jibran Nakhwa</strong> | {experienceYears} years of experience
       </p>
-      <p>© {currentYear} Adnan Ali. All rights reserved.</p>
+      <p>© {currentYear} Jibran Nakhwa. All rights reserved.</p>
     </footer>
   );
 };

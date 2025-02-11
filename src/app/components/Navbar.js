@@ -47,10 +47,10 @@ function NavbarComponent({ isScrolled }) {
         <MenuItem setActive={setActive} active={active} item="Navigation">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="#summary">Summary</HoveredLink>
+            <HoveredLink href="#experience">Experience</HoveredLink>
+            <HoveredLink href="#projects">Projects</HoveredLink>
             <HoveredLink href="#skills">Skills</HoveredLink>
             <HoveredLink href="#education">Education</HoveredLink>
-            <HoveredLink href="#projects">Projects</HoveredLink>
-            <HoveredLink href="#experience">Experience</HoveredLink>
             <HoveredLink href="#contact">Contact</HoveredLink>
           </div>
         </MenuItem>
@@ -58,10 +58,10 @@ function NavbarComponent({ isScrolled }) {
         {/* Social Links */}
         <MenuItem setActive={setActive} active={active} item="Social">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="https://github.com/adi-tsvet" target="_blank">
+            <HoveredLink href="https://github.com/nakhhwajibran" target="_blank">
               <GitHubLogoIcon className="mr-1" /> GitHub
             </HoveredLink>
-            <HoveredLink href="https://www.linkedin.com/in/adi-tsvet" target="_blank">
+            <HoveredLink href="https://www.linkedin.com/in/jibran-siraj-nakhwa-5a6004168" target="_blank">
               <LinkedInLogoIcon className="mr-1" /> LinkedIn
             </HoveredLink>
             <HoveredLink href="https://vercel.com" target="_blank">

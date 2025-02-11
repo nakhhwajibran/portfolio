@@ -14,10 +14,10 @@ export default function Home() {
       <HeroSection />
       <main className="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-all">
         <Summary />
+        <WorkExperience />
+        <Project />
         <Skills/>
         <Education />
-        <Project />
-        <WorkExperience />
         <ContactForm />
       </main>
       <Footer/>

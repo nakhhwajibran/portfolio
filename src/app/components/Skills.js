@@ -5,13 +5,14 @@ import {
 } from 'react-icons/fa';
 import { 
   SiTypescript, SiDjango, SiPostgresql, SiMysql, SiMongodb, SiNextdotjs, SiKubernetes, SiRedis, 
-  SiAmazonrds, SiMicrosoftsqlserver, SiTailwindcss, SiMaterialdesign, SiFigma, SiJira, SiThunderbird, SiCypress,SiNginx, SiPrometheus, SiWebpack, SiVercel
+  SiAmazonrds, SiMicrosoftsqlserver, SiTailwindcss, SiMaterialdesign, SiFigma, SiJira, SiThunderbird, SiCypress,SiNginx, SiPrometheus, SiWebpack, SiVercel, SiApachemaven, SiGrafana, SiAzuredevops, SiGooglecloud, SiDocker, SiHelm, SiTerraform, SiAnsible, SiDatadog, SiSplunk, SiBitbucket
 } from 'react-icons/si';
 import { DiScrum, DiNpm } from 'react-icons/di';
 import { TbBrandFirebase } from 'react-icons/tb';
 
 const Skills = () => {
   const skillCategories = [
+    
     {
       title: 'Programming Languages',
       skills: [
@@ -20,6 +21,36 @@ const Skills = () => {
         { name: 'JavaScript', icon: <FaNodeJs />, color: 'text-yellow-400' },
         { name: 'TypeScript', icon: <SiTypescript />, color: 'text-blue-600' },
         { name: 'Bash/Shell', icon: <FaTerminal />, color: 'text-gray-600' },
+        { name: 'Linux', icon: <FaLinux />, color: 'text-black-600' },
+      ],
+    },
+    {
+      title: 'Cloud & Containerization',
+      skills: [
+        { name: 'AWS', icon: <FaAws />, color: 'text-yellow-400' },
+        { name: 'Docker', icon: <FaDocker />, color: 'text-blue-500' },
+        { name: 'Kubernetes', icon: <SiKubernetes />, color: 'text-blue-400' },
+        { name: 'Azure', icon: <SiAzuredevops />, color: 'text-red-600' },
+        { name: 'GCP', icon: <SiGooglecloud />, color: 'text-orange-500' },
+      ],
+    },
+    {
+      title: 'CI/CD & Automation',
+      skills: [
+        { name: 'Jenkins', icon: <FaJenkins />, color: 'text-red-600' },
+        { name: 'AWS DevOps', icon: <FaAws />, color: 'text-yellow-600' },
+        { name: 'Maven', icon: <SiApachemaven />, color: 'text-red-500' },
+        { name: 'Terraform', icon: <SiTerraform />, color: 'text-black-600' },
+        { name: 'Ansible', icon: <SiAnsible />, color: 'text-gray-600' },
+      ],
+    },
+    {
+      title: 'Observability & Monitoring',
+      skills: [
+        { name: 'Grafana', icon: <SiGrafana />, color: 'text-orange-500' },
+        { name: 'Prometheus', icon: <SiPrometheus />, color: 'text-orange-500' },
+        { name: 'Datadog', icon: <SiDatadog />, color: 'text-red-500' },
+        { name: 'Splunk', icon: <SiSplunk />, color: 'text-black-600' },
       ],
     },
     {
@@ -47,29 +78,15 @@ const Skills = () => {
       ],
     },
     {
-      title: 'DevOps & Cloud',
-      skills: [
-        { name: 'AWS', icon: <FaAws />, color: 'text-yellow-400' },
-        { name: 'Docker', icon: <FaDocker />, color: 'text-blue-500' },
-        { name: 'Kubernetes', icon: <SiKubernetes />, color: 'text-blue-400' },
-        { name: 'Jenkins', icon: <FaJenkins />, color: 'text-red-600' },
-        { name: 'Kafka', icon: <FaChartBar />, color: 'text-orange-500' },
-        { name: 'Nginx', icon: <SiNginx />, color: 'text-green-500' },
-        { name: 'Prometheus', icon: <SiPrometheus />, color: 'text-orange-500' },
-      ],
-    },
-    {
       title: 'Tools & Miscellaneous',
       skills: [
         { name: 'Git', icon: <FaGitAlt />, color: 'text-red-600' },
-        { name: 'Figma', icon: <SiFigma />, color: 'text-pink-500' },
         { name: 'Jira', icon: <SiJira />, color: 'text-blue-600' },
-        { name: 'Thunder Client', icon: <SiThunderbird />, color: 'text-gray-600' },
-        { name: 'Cypress', icon: <SiCypress />, color: 'text-green-700' },
         { name: 'Linux', icon: <FaLinux />, color: 'text-gray-700' },
         { name: 'Windows', icon: <FaWindows />, color: 'text-blue-600' },
         { name: 'Vercel', icon: <SiVercel />, color: 'text-gray-800' },
         { name: 'Agile Scrum', icon: <DiScrum />, color: 'text-yellow-600' },
+        { name: 'Bit Bucket', icon: <SiBitbucket />, color: 'text-yellow-600' },
       ],
     },
   ];

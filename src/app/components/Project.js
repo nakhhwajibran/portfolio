@@ -6,22 +6,22 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const Project = () => {
-  const [projects, setProjects] = useState({ software: [], data: [] });
+  const [projects, setProjects] = useState({ software: [], devops: [] });
   const [activeTab, setActiveTab] = useState('software');
 
   useEffect(() => {
     async function fetchProjects() {
       try {
-        const response = await axios.get('https://api.github.com/users/adi-tsvet/repos');
+        const response = await axios.get('https://api.github.com/users/nakhhwajibran/repos');
         const allProjects = response.data;
+        console.log(response.data)
 
         const categorizedProjects = {
           software: allProjects.filter((project) =>
-            ['flush-email', 'boostlet', 'PowerBoostlet', 'qr-image-drop', 'UMB-OATS'].includes(project.name)
+            ['docker-django-nginx-mysql', 'covid19india', 'docker-MERN-App', 'docker-flask-app'].includes(project.name)
           ),
-          data: allProjects.filter((project) =>
-            ['smart-city-realtime-data-Engineering', 'Twitter-Analysis-Airflow-ETL', 'Stock-Market-Kafka-Real-Time', 'kafka-crash-course', 'Los-Angeles-Crime-Report'
-            ].includes(project.name)
+          devops: allProjects.filter((project) =>
+            ['docker-django-nginx-mysql', 'terraform-aws-3tier-app', 'docker-MERN-App', 'docker-flask-app', 'kubernetes','Jenkins'].includes(project.name)
           ),
         };
 
@@ -40,16 +40,16 @@ const Project = () => {
 
       <div className="tabs">
         <button
+          className={`tab-button ${activeTab === 'devops' ? 'active' : ''}`}
+          onClick={() => setActiveTab('devops')}
+        >
+         Devops
+        </button>
+        <button
           className={`tab-button ${activeTab === 'software' ? 'active' : ''}`}
           onClick={() => setActiveTab('software')}
         >
           Software Engineering
-        </button>
-        <button
-          className={`tab-button ${activeTab === 'data' ? 'active' : ''}`}
-          onClick={() => setActiveTab('data')}
-        >
-          Data Engineering
         </button>
       </div>
       <div className="project-grid">
