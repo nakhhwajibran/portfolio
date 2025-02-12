@@ -14,7 +14,7 @@ const Project = () => {
       try {
         const response = await axios.get('https://api.github.com/users/nakhhwajibran/repos');
         const allProjects = response.data;
-        console.log(response.data)
+        // console.log(response.data)
 
         const categorizedProjects = {
           software: allProjects.filter((project) =>
@@ -27,7 +27,7 @@ const Project = () => {
 
         setProjects(categorizedProjects);
       } catch (error) {
-        console.error('Error fetching GitHub projects:', error);
+        // console.error('Error fetching GitHub projects:', error);
       }
     }
 

@@ -11,12 +11,12 @@ const ContactForm = () => {
     const form = e.target;
 
     // Get form data
-    const formData = new FormData(form);
-    const name = formData.get('name');
-    const email = formData.get('email');
-    const message = formData.get('message');
+    // const formData = new FormData(form);
+    // const name = formData.get('name');
+    // const email = formData.get('email');
+    // const message = formData.get('message');
 
-    console.log({ name, email, message }); // Simulate sending form data
+    // console.log({ name, email, message }); // Simulate sending form data
 
     setIsSubmitted(true);
 

@@ -1,11 +1,11 @@
 'use client';
 
 import { 
-  FaPython, FaJava, FaReact, FaNodeJs, FaAws, FaDocker, FaGitAlt, FaJenkins, FaChartBar, FaLinux, FaWindows, FaTerminal,
+  FaPython, FaJava, FaReact, FaNodeJs, FaAws, FaDocker, FaGitAlt, FaJenkins, FaLinux, FaWindows, FaTerminal,
 } from 'react-icons/fa';
 import { 
   SiTypescript, SiDjango, SiPostgresql, SiMysql, SiMongodb, SiNextdotjs, SiKubernetes, SiRedis, 
-  SiAmazonrds, SiMicrosoftsqlserver, SiTailwindcss, SiMaterialdesign, SiFigma, SiJira, SiThunderbird, SiCypress,SiNginx, SiPrometheus, SiWebpack, SiVercel, SiApachemaven, SiGrafana, SiAzuredevops, SiGooglecloud, SiDocker, SiHelm, SiTerraform, SiAnsible, SiDatadog, SiSplunk, SiBitbucket
+  SiAmazonrds, SiMicrosoftsqlserver, SiTailwindcss, SiMaterialdesign, SiJira, SiPrometheus, SiWebpack, SiVercel, SiApachemaven, SiGrafana, SiAzuredevops, SiGooglecloud, SiTerraform, SiAnsible, SiDatadog, SiSplunk, SiBitbucket
 } from 'react-icons/si';
 import { DiScrum, DiNpm } from 'react-icons/di';
 import { TbBrandFirebase } from 'react-icons/tb';
