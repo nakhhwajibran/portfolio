@@ -112,7 +112,7 @@ const HeroSection = () => {
               transition={{ duration: 0.5 }}
             >
               <iframe
-                src="/resume.pdf"
+               	src="/resume-jibran.pdf"
                 className="resume-frame"
                 title="Resume"
               />
